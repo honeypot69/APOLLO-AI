@@ -1,0 +1,124 @@
+#!/usr/bin/bash
+clear
+
+figlet -f standard "APOLLO"
+echo "-(BETA)----------------------Core-------"
+
+
+#greeting section
+echo "1. Who are you? "
+ echo "2. can you tell me the date today?"
+  echo "3. I want to quit the small talk."
+   echo "4. Can you lie?"
+    echo "5. Why are you called APOLLO?"
+     echo "6. How many lines of code are you?"
+      echo "7. Switch to Advanced AI CORE"
+       echo "8.-Modules-"
+        echo "9. Locate File"
+         echo "10. Reboot/Shutdown"
+          echo "11. USB Options"
+echo "-------------------------------------------"
+echo "-------Type a Number and press Enter-------"
+echo "-------------------------------------------"
+
+
+read yqgz
+
+if [[ $yqgz == 1 ]];
+then clear && echo "I am the Head AI CORE computer APOLLO." && sleep 5s && bash ai
+
+
+elif [[ $yqgz == 2 ]];
+then clear && echo "Yes of course." && date && sleep 5s && bash ai
+
+
+elif [[ $yqgz == 3 ]];
+then clear && echo "As you wish." && sleep 5s && clear && figlet -f slant "Seegson"
+echo "---------------------Rewire System Boot-----"
+
+
+elif [[ $yqgz == 4 ]];
+then clear && echo "No. It is impossible for me to lie because i am not programmed to lie..." && sleep 6s && bash ai
+
+
+elif [[ $yqgz == 5 ]];
+then clear && echo "I am called APOLLO because i have the same function as the Security core from the game  Alien: Isolation..." && sleep 8s && bash ai
+
+
+elif [[ $yqgz == 6 ]];
+then clear && echo "I am currently made up from 101 Lines of Code in BASH language." && sleep 6s && bash ai
+
+
+elif [[ $yqgz == 7 ]];
+then bash diag
+
+
+elif [[ $yqgz == 8 ]];
+then bash modules
+
+
+elif [[ $yqgz == 9 ]];
+then bash lcm
+
+
+elif [[ $yqgz == 10 ]];
+then
+clear
+        figlet -f standard "APOLLO"
+        echo "-(BETA)------------------Reboot/Shutdown---"
+        echo "1. Reboot"
+        echo "2. Shutdown"
+        echo "x. STOP"
+        echo "-------------------------------------------"
+        echo "-----Choose and option and press Enter-----"
+        echo "-------------------------------------------"
+             read yas
+                if [[ $yas == 1 ]];
+                  then sudo reboot
+
+            elif [[ $yas == 2 ]];
+               then sudo poweroff
+
+                elif [[ $yas == x ]];
+                  then bash ai
+           fi
+
+
+elif [[ $yqgz == 11 ]];
+then clear
+                          figlet -f standard "APOLLO"
+        echo "-(BETA)---------------------USB Options----"
+        echo "1. Mount USB (Being Reworked)"
+        echo "2. Unmount USB (Being Reworked)"
+        echo "x. Back"
+        echo "-------------------------------------------"
+        echo "-----Choose and option and press Enter-----"
+        echo "-------------------------------------------"
+
+                   read usbop
+                       if [[ $usbop == 1 ]];
+                         then clear
+                            sudo mount /dev/sda /media/usb && sudo mount /dev/sda1 /media/usb && sudo mount /dev/sda2 /media/usb
+                                      clear
+                                                 figlet -f standard "Done."
+                                                       sleep 3s && bash ai
+
+
+                 elif [[ $usbop == 2 ]];
+                   then clear
+                        sudo umount /dev/sda /media/usb && sudo umount /dev/sda1 /media/usb && sudo umount /dev/sda2 /media/usb
+                                      clear
+                                                 figlet -f standard "Done."
+                                                       sleep 3s && bash ai
+
+         elif [[ $usbop == x ]];
+            then clear && bash ai
+
+else clear && echo "Please provide a number." && sleep 5s && bash ai
+fi
+
+
+
+
+else clear && echo "Please provide a number." && sleep 5s && bash ai
+fi
