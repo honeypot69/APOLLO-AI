@@ -76,6 +76,10 @@ then type "Yes" and press enter.
 
 
 
+when you have installed all the dependencies run the "bash ai" inside of the direcotry where all the stored files are.
+
+
+
 
 
 
