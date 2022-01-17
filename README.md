@@ -76,7 +76,7 @@ then type "Yes" and press enter.
 
 
 
-when you have installed all the dependencies run the command "bash ai" inside of the direcotry where all the files are stored.
+when you have installed all the dependencies run the command "bash ai" inside of the directory where all the files are stored.
 
 and voila then you have installed the APOLLO helping ai/tool.
 
