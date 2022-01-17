@@ -19,7 +19,4 @@ Enjoy :)
 
 If you want new modules just send me a request :)
 
-In the Menu there might be a option called "What is seegsons password?" but it was meant to be a easter egg but im not finished with it...
-
-
 ![tg](https://user-images.githubusercontent.com/93089744/149834323-ed317c76-cdce-41a8-8cb2-0f36aba92bb8.png)
