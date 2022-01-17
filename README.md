@@ -18,3 +18,5 @@ Enjoy :)
 ----------------------------------------------------------
 
 If you want new modules just send me a request :)
+
+In the Menu there might be a option called "What is seegsons password?" but it was meant to be a easter egg but im not finished with it...
