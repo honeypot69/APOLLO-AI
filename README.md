@@ -78,28 +78,7 @@ First cd into the directory where there should be displayed these files:
 ![w](https://user-images.githubusercontent.com/93089744/149835513-6509c8ea-c905-4f6e-918d-43642b03fcb6.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+then type "Sudo bash install.sh" and press enter
 
 
 ![tt](https://user-images.githubusercontent.com/93089744/149834560-49ce3d63-e5c7-464d-8781-e43c039fcaea.png)
