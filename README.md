@@ -34,42 +34,14 @@ If you want new modules just send me a request :)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------------------------------------------------------------------------------------------------
                            Picture of the Ai's Helping tool menu.
 
 ![tg](https://user-images.githubusercontent.com/93089744/149834323-ed317c76-cdce-41a8-8cb2-0f36aba92bb8.png)
 
 
-
-
-
-
 ------------------------------------------------------------------------------
                 How to install.
-
-
 
 
 
@@ -80,9 +52,10 @@ First cd into the directory where there should be displayed these files:
 
 then type "Sudo bash install.sh" and press enter
 
-
+once done there should be a installer opening like the picture below.
 ![tt](https://user-images.githubusercontent.com/93089744/149834560-49ce3d63-e5c7-464d-8781-e43c039fcaea.png)
 
+then type "Yes" and press enter.
 
 
 
