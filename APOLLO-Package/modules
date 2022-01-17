@@ -1,0 +1,28 @@
+#!/usr/bin/bash
+clear
+
+figlet -f standard "APOLLO"
+   echo "-(BETA)---------------------Modules-----"
+ echo "-Advanced Neurotics Diaglogue (AND Module)(File name = diag)"
+ echo "-Module Manager (MMM)(File name = modules)"
+ echo "-Locate Module (LCM)(File name = lcm)"
+echo "----------------------------------------------------------------"
+echo "----------------------Type 'back' to exit-----------------------"
+echo "----------------------------------------------------------------"
+
+read name
+
+if [[ $name == back ]];
+then bash ai
+
+   else clear && echo "Sorry i am not Programmed to compute that..." && sleep 5s && bash modules
+
+
+
+
+
+
+
+
+
+fi
