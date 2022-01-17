@@ -45,7 +45,9 @@ If you want new modules just send me a request :)
 
 
 
-First cd into the directory where there should be displayed these files:
+First run the command "git clone https://github.com/HoneyPot69/APOLLO-AI.git"
+
+then cd into the directory called "APOLLO-AI" then cd into "APOLLO-Package" and type "ls" then there should be displayed these files:
 
 ![w](https://user-images.githubusercontent.com/93089744/149835513-6509c8ea-c905-4f6e-918d-43642b03fcb6.png)
 
