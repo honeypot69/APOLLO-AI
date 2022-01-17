@@ -64,8 +64,8 @@ If you want new modules just send me a request :)
 
 
 
-
-
+------------------------------------------------------------------------------
+                How to install.
 
 
 
