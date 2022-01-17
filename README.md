@@ -56,6 +56,8 @@ If you want new modules just send me a request :)
 
 
 
+---------------------------------------------------------------------------------------------------------------
+                           Picture of the Ai's Helping tool menu.
 
 ![tg](https://user-images.githubusercontent.com/93089744/149834323-ed317c76-cdce-41a8-8cb2-0f36aba92bb8.png)
 
@@ -66,6 +68,33 @@ If you want new modules just send me a request :)
 
 ------------------------------------------------------------------------------
                 How to install.
+
+
+
+
+
+First cd into the directory where there should be displayed these files:
+
+![w](https://user-images.githubusercontent.com/93089744/149835513-6509c8ea-c905-4f6e-918d-43642b03fcb6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
