@@ -15,3 +15,6 @@ The AI is BASH based and works on linux :)
 
 
 Enjoy :)
+----------------------------------------------------------
+
+If you want new modules just send me a request :)
