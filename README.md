@@ -1,4 +1,11 @@
 # APOLLO-AI
+
+
+Dont mind my bad English. Im just a small danish devoloper :)
+
+
+
+
 This is the BETA version of APOLLO AI core.
 
 WHAT YOU CAN AND CANT DO!
