@@ -53,7 +53,22 @@ First cd into the directory where there should be displayed these files:
 then type "Sudo bash install.sh" and press enter
 
 once done there should be a installer opening like the picture below.
+
+
+
+
+
+
+
+
 ![tt](https://user-images.githubusercontent.com/93089744/149834560-49ce3d63-e5c7-464d-8781-e43c039fcaea.png)
+
+
+
+
+
+
+
 
 then type "Yes" and press enter.
 
