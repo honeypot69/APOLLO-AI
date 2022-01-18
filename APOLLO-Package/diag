@@ -1,0 +1,142 @@
+#!/usr/bin/bash
+clear
+
+
+
+
+
+figlet -f standard "APOLLO"
+echo "-(BETA)--------------------Dialogue Mode---"
+
+
+echo "Hello."
+read name
+
+
+
+if [[ $name == "What is the date?" ]];
+then clear && echo "The date is:" && date && sleep 5s && bash diag
+
+    elif [[ $name == "Whats the date?" ]];
+          then clear && echo "The date is:" && date && sleep 5s && bash diag
+
+               elif [[ $name == "Show me the date." ]];
+                        then clear && echo "The date is:" && date && sleep 5s && bash diag
+
+                            elif [[ $name == "Give me the date." ]];
+                                  then clear && echo "The date is:" && date && sleep 5s && bash diag
+
+                     elif [[ $name == "Can you give me the date?" ]];
+                       then clear && echo "The date is:" && date && sleep 5s && bash diag
+
+
+
+elif [[ $name == "Who are you?" ]];
+then clear && echo "I am the APOLLO AI Core." && sleep 3s && bash diag
+
+           elif [[ $name == "What are you?" ]];
+                then clear && echo "I am the APOLLO AI Core." && sleep 3s && bash diag
+
+
+
+
+elif [[ $name == "Switch back." ]];
+then bash ai
+
+      elif [[ $name == "Go back." ]];
+           then bash ai
+
+             elif [[ $name == "Quit." ]];
+                   then bash ai
+
+                     elif [[ $name == "I want to Quit." ]];
+                         then bash ai
+
+                                      elif [[ $name == "Switch mode." ]];
+                                                 then bash ai
+
+
+elif [[ $name == "What is your name?" ]];
+then
+            clear && echo "My name is APOLLO."
+
+                                                            sleep 6s && bash diag
+
+elif [[ $name == "Whats your name?" ]];
+then
+            clear && echo "My name is APOLLO."
+
+                                                            sleep 6s && bash diag
+
+
+
+
+elif [[ $name == "Hello."  ]];
+then clear && echo "Hi. What is your name?"
+
+   read myname
+     clear && echo "Hi $myname nice to meet you." && sleep 5s && bash diag
+
+
+      elif [[ $name == "Hi."  ]];
+          then clear && echo "Hi. What is your name?"
+
+   read myname
+                     clear && echo "Hi $myname nice to meet you." && sleep 5s && bash diag
+
+
+
+elif [[ $name == "Help." ]];
+then clear && echo "Its really simple just ask me some questions and then i will try to see if i understand... (You have to be very specific)" && sleep 8s &&bash diag
+
+             elif [[ $name == "Help me." ]];
+                        then clear && echo "Its really simple just ask me some questions and then i will try to see if i understand... (You have to be very specific)" && sleep 8s &&bash diag
+
+
+
+
+elif [[ $name == "Let me see your codes." ]];
+then clear && echo "Of course... 2 seconds." && sleep 3s && nano diag && bash diag
+
+        elif [[ $name == "Can i see your codes?." ]];
+              then clear && echo "Of course... 2 seconds." && sleep 3s && nano diag && bash diag
+
+                   elif [[ $name == "Show me your codes." ]];
+                       then clear && echo "Of course... 2 seconds." && sleep 3s && nano diag && bash diag
+
+
+
+elif [[ $name == "What is Advanced AI mode?" ]];
+then clear && echo "Advanced APOLLO AI mode is a option for more Advanced features (such as dialogue)... You can always tell me to switch back tho." && sleep 8s && bash diag
+
+                        elif [[ $name == "Whats Advanced AI mode?" ]];
+                              then clear && echo "Advanced APOLLO AI mode is a option for more Advanced features (such as dialogue)... You can always tell me to switch back tho." && sleep 8s && bash diag
+
+                                      elif [[ $name == "What does Advanced AI mode mean?" ]];
+                                             then clear && echo "Advanced APOLLO AI mode is a option for more Advanced features (such as dialogue)... You can always tell me to switch back tho." && sleep 8s && bash diag
+
+
+
+
+
+elif [[ $name == "I want to install a program." ]];
+then clear && echo "Sure! What program do you want to install?"
+read aptname
+   clear && echo "Okay! 2 seconds." && sudo apt-get install $aptname
+bash diag
+
+
+
+
+
+
+
+
+
+
+
+
+
+else clear && echo "Sorry... I cant compute that. Or perhaps you have maybe typed your question wrong." && sleep 8s && bash diag
+fi
+
