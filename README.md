@@ -51,7 +51,8 @@ First run the command "git clone https://github.com/HoneyPot69/APOLLO-AI.git"
 
 then cd into the directory called "APOLLO-AI" then cd into "APOLLO-Package" and type "ls" then there should be displayed these files:
 
-![w](https://user-images.githubusercontent.com/93089744/149835513-6509c8ea-c905-4f6e-918d-43642b03fcb6.png)
+![q](https://user-images.githubusercontent.com/93089744/150027202-232a6004-80ca-413a-927a-7689ea0906e4.png)
+
 
 
 then type "Sudo bash install.sh" and press enter
